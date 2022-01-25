@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".loginpage">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/zeus" />
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/NameInput"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C1C0C0"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/PassTEXT"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Password:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFC1C0C0"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login" />
+
+    <View
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="525dp" />
+
+</LinearLayout>
